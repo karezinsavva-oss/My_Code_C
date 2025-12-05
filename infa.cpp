@@ -4,15 +4,6 @@
 #include <fstream>
 #include <algorithm>
 
-struct point{
-    int a;
-    int b;
-
-    void print(){
-        std::cout << a << ' ' << b << std::endl;
-    }
-};
-
 class Triangle {
 private:
     float a;
